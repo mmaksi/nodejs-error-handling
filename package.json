@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-error-handling",
+  "version": "1.0.0",
+  "description": "Learn to handle errors in Node.js and TypeScript by creating custom error classes and an error middleware",
+  "main": "index.js",
+  "scripts": {
+    "start:production": "tsc && node build/index.js",
+    "start:dev": "tsc --watch & nodemon build/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaksi/nodejs-error-handling.git"
+  },
+  "keywords": [
+    "nodejs",
+    "error",
+    "handling",
+    "custom",
+    "error",
+    "handler",
+    "error",
+    "handling",
+    "middleware"
+  ],
+  "author": "Mark Maksi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaksi/nodejs-error-handling/issues"
+  },
+  "homepage": "https://github.com/mmaksi/nodejs-error-handling#readme"
+}
